@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# cedaa-landing
+Cedaa Landing — Next.js + TypeScript landing page for Cedaa Yogurt. Built with Tailwind CSS, shadcn/ui, and lucide-react. Deployed on Vercel.
+
+# cedaa-landing
+
+A modern landing page for Cedaa Yogurt built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui.
+
+## Tech stack
+- Next.js (App Router, TypeScript)
+- Tailwind CSS
+- shadcn/ui (UI primitives)
+- lucide-react (icons)
+- next/font Google (Urbanist)
+- pnpm
+- Vercel (hosting)
+
+## Scripts
+```bash
+pnpm dev     # run dev server
+pnpm build   # build for production
+pnpm start   # start the production server (after pnpm build)
+pnpm lint    # run linter
+>>>>>>> 89c4be64278e51615cf3e565b3cd0a29c8f0397f
