@@ -1,4 +1,4 @@
-import * as React from "React" ;
+import * as React from "react" ;
 
 const CeedarFamily = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
