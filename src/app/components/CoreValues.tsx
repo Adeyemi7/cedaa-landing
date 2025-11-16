@@ -18,7 +18,7 @@ const CoreValues = () => {
       <div className="py-6 mx-auto px-4">
         <ValuesComponents />
         <div className="flex justify-center items-center gap-4 sm:gap-6 mt-10 text-[#767776] text-[13px] sm:text-[15px] md:text-[16px] font-medium italic">
-          <div className="flex items-center gap-2 sm:gap-4 md:gap-4">
+          <div className=" hidden sm:flex sm:items-center gap-0 sm:gap-4 md:gap-4 ">
             <div className="h-px w-16 sm:w-24 md:w-32 border-t border-dotted border-[#767776]"></div>
             <p className="hidden sm:block">Pure Taste, Every Time</p>
             <div className="h-px w-16 sm:w-24 md:w-32 border-t border-dotted border-[#767776]"></div>
