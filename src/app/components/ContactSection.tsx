@@ -11,7 +11,7 @@ import RatingIcon from "../assests/icons/RatingIcon";
 const ContactSection = () => {
   return (
     <div className="bg-[#F1EEE6] w-full">
-      <div className="w-[90%] mx-auto flex flex-col gap-3 md:flex-row items-center mt-10 pt-14 pb-14">
+      <div className="w-[90%] mx-auto flex flex-col gap-3 md:flex-row items-center mt-4 lg:mt-10 pt-6 lg:pt-14 pb-14">
         <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left">
           <div className="mt-4 flex flex-col">
             <p className="text-[#333333] font-bold text-[36px] leading-[54px] max-w-[550px]">

@@ -3,7 +3,7 @@ import ValuesComponents from "./UI/ValuesComponents";
 
 const CoreValues = () => {
   return (
-    <div className="bg-white w-full mt-10 pb-10">
+    <div className="bg-white w-full mt-10 md:pb-10">
       <div className="text-[#333333] flex flex-col justify-center items-center py-6 px-4">
         <p className="text-[28px] sm:text-[34px] md:text-[38px] font-extrabold text-center leading-tight">
           CORE <span className="text-[#EB4922]">VALUES</span>
