@@ -107,19 +107,23 @@ const CardComponent: React.FC = () => {
 
   return (
     <div className="mt-10">
-      <div className="flex flex-row gap-3 transition delay-300" role="tablist">
+      <div
+        className="overflow-x-auto whitespace-nowrap flex flex-row gap-3 transition delay-300 mb-6 md:mb-8"
+        role="tablist"
+      >
         {YoghurtName.map((yoghurtType) => {
           const isActive = yoghurtType.id === selectedId;
+
           return (
             <button
               key={yoghurtType.id}
               onClick={() => setSelectedId(yoghurtType.id)}
               role="tab"
               className={
-                "text-center my-10 px-6 py-4 rounded-t-[16] font-extrabold text-[20px] " +
+                "text-center my-1 px-6 py-4 rounded-t-[16] font-extrabold text-[20px] " +
                 (isActive
                   ? "text-[#FF570E] bg-[#FAF3E3] shadow-md"
-                  : "text-[#333333] bg-[#E7E7E7]  hover:bg-[#FAF3E3]")
+                  : "text-[#333333] bg-[#E7E7E7] hover:bg-[#FAF3E3]")
               }
             >
               {yoghurtType.name}

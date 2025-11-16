@@ -51,11 +51,11 @@ const ValuesDetails: ValuesDetailsProps[] = [
 
 const ValuesComponents = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 px-10 md:px-20 lg:px-32">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-10 md:px-20 lg:px-32">
       {ValuesDetails.slice(0, 3).map((value) => (
         <div
           key={value.id}
-          className="bg-[#FFFFFF] max-w-[392px] h-[253px] rounded-lg shadow-lg p-6 flex flex-col hover:scale-105 transition-transform duration-300"
+          className="bg-[#FFFFFF] max-w-[392px] rounded-lg shadow-lg p-6 flex flex-col hover:scale-105 transition-transform duration-300"
         >
           <div className="bg-[#FFFFFF] w-[55px] flex h-[55px] p-2 items-start rounded-lg shadow-lg my-4">
             <div className="flex justify-center items-center h-full w-full">
@@ -73,11 +73,11 @@ const ValuesComponents = () => {
         </div>
       ))}
 
-      <div className="col-span-3 flex justify-center gap-4">
+      <div className=" lg:col-span-3 grid-cols-1 md:grid-cols-2 md:col-span-2 lg:grid-cols-3 lg:flex grid justify-center gap-4">
         {ValuesDetails.slice(3).map((value) => (
           <div
             key={value.id}
-            className="bg-[#FFFFFF] max-w-[392px] h-[253px] rounded-lg shadow-lg p-6 flex flex-col hover:scale-105 transition-transform duration-300"
+            className="bg-[#FFFFFF] max-w-[392px] rounded-lg shadow-lg p-6 flex flex-col hover:scale-105 transition-transform duration-300"
           >
             <div className="bg-[#FFFFFF] w-[55px] flex h-[55px] p-2 items-start rounded-lg shadow-lg my-4">
               <div className="flex justify-center items-center h-full w-full">

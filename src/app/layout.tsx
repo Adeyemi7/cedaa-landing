@@ -5,7 +5,7 @@ import { Urbanist } from "next/font/google";
 const urbanist = Urbanist({
   subsets: ["latin"],
   variable: "--font-urbanist",
-  weight: ["400", "600", "800"], 
+  weight: ["400", "600", "800"],
   display: "swap",
 });
 

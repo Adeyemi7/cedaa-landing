@@ -1,4 +1,3 @@
-
 "use client";
 import React, { useState } from "react";
 import CeedarLogo from "../assests/icons/CeedarLogo";
@@ -12,7 +11,7 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-full p-2">
         <CeedarLogo />
 
-        <ul className="hidden md:flex text-[18px] font-semibold text-[#333] gap-12">
+        <ul className="hidden md:flex md:gap-6 text-[18px] font-semibold text-[#333] lg:gap-12">
           <li className="hover:text-[#EB4922] transition duration-200 cursor-pointer">
             Home
           </li>

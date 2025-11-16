@@ -1,4 +1,4 @@
-import * as React from "react" ;
+import * as React from "react";
 
 const CeedarFamily = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -37,4 +37,3 @@ const CeedarFamily = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CeedarFamily;
-

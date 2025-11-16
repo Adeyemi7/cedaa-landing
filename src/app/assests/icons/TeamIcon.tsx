@@ -1,7 +1,6 @@
 import * as React from "react";
 
 const TeamIcon = (props: React.SVGProps<SVGSVGElement>) => (
- 
   <svg
     width={24}
     height={24}

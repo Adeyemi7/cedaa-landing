@@ -11,7 +11,10 @@ const HeroSection = () => {
       <VerticalLines className="absolute inset-0 w-full h-full opacity-10" />
 
       <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left">
-        <p className="text-[#333333] font-bold text-[34px] sm:text-[40px] md:text-[46px] leading-[1.2] md:leading-[69px] max-w-[550px] mx-auto md:mx-0">
+        <p
+          className="text-[#333333] font-bold text-[28px] sm:text-[32px] md:text-[40px] lg:text-[46px] 
+               sm:leading-[1.3] md:leading-[69px] lg:leading-[69px]   leading-[1.2]  max-w-[550px] mx-auto md:mx-0"
+        >
           Deliciously Nutritious. Made for Every Moment.
         </p>
 

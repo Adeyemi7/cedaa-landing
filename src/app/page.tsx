@@ -1,6 +1,5 @@
 import Navbar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
-import StatsBanner from "./components/StatsBanner";
 import TopProducts from "./components/TopProducts";
 import StorySection from "./components/StorySection";
 import WhyChoose from "./components/WhyChoose";
@@ -18,7 +17,6 @@ export default function HomePage() {
       <WhyChoose />
       <CoreValues />
       <ContactSection />
-      <StatsBanner />
       <Footer />
     </main>
   );

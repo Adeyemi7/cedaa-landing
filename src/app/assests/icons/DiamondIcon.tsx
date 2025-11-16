@@ -1,7 +1,6 @@
 import * as React from "react";
 
 const DiamondIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-
   <svg
     width={24}
     height={24}

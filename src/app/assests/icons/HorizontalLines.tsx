@@ -1,5 +1,5 @@
 import * as React from "react";
-const  HorizontalLines = (props: React.SVGProps<SVGSVGElement>) => (
+const HorizontalLines = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width={1498}
     height={800}

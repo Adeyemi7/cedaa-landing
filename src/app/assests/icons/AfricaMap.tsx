@@ -1,7 +1,6 @@
-import * as React from "react" ;
+import * as React from "react";
 
-const AfricaMap = (props:React.SVGProps<SVGSVGElement>) => (
-  
+const AfricaMap = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width={53}
     height={56}

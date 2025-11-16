@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const LocationIcon = (props:React.SVGProps<SVGSVGElement>) => (
+const LocationIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width={18}
     height={24}
@@ -19,4 +19,3 @@ const LocationIcon = (props:React.SVGProps<SVGSVGElement>) => (
 );
 
 export default LocationIcon;
-
